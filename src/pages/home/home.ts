@@ -13,7 +13,7 @@ export class HomePage {
 	}
 
 	showBanner() {
-
+		console.log('show banner')
 		let bannerConfig: AdMobFreeBannerConfig = {
 			isTesting: true, // Remove in production
 			autoShow: true,
